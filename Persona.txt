@@ -1,0 +1,43 @@
+class persona:
+    def _init_(self, cedula, nombre, apellido, edad):
+
+        self.cedula= cedula
+        self.nombre= nombre
+        self.apellido= apellido
+        self.edad= edad
+
+
+    def escribir(self, mensaje):
+        print("Ingrese el numero de cèdula: ")
+        print(self.cedula)
+        print(mensaje)
+
+
+    def decir(self, mensaje):
+        print(self.edad)
+        print(mensaje)
+
+
+
+  class padre:
+      def asistir(self,Reunion)
+      print'Debo asistir a la Reuniòn:', Reunion
+
+
+  class estudiante:
+      def describir(self,Descripciòn)
+      print' Yo me describo asi: ', Descripciòn
+
+
+Ismael= padre(0945786132,36)
+Luciana=estudiante(1204567893,19)
+
+print'Soy Ismael, mi Cèdula es y tengo', Ismael.cedula.edad
+print'Soy Luciana, mi Cèdula es, soy una persona humilde y tengo',Luciana.cedula.edad
+
+Ismael.escribir()
+Ismael.decir('Yo')
+Ismael.asistir('Voy asistir')
+Luciana.escribir()
+Luciana.decir('Yo')
+Luciana.describir()
